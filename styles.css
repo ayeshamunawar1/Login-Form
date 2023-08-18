@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+}
+body{
+     background-color: #589ed9; 
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;  /* to make it in center*/
+    margin-top: 150px;
+    text-align: center;
+   
+}
+#header .logo{
+    font-size: 50px;
+    color: white;
+}
+#header h1{
+    margin-top: 0;
+    font-size: 32px;
+    color: white;
+    
+}
+.containerfields{
+background-color: #ffff;
+    border-radius: 15px;
+    height: 250%;
+    }
+ .containerfields input[type="email"],
+.containerfields input[type="password"]{
+    width: 75%;
+    border: none;
+    margin: 0;
+    outline: none;
+   padding: 20px;
+    font-size: 15px;      
+} 
+.containerfields input[type="password"]{
+    border-top: 1px solid #ccc ; 
+}
+.container .login{
+    border-radius: 15px;
+  background: #ffff;
+  padding: 12px;
+  background: #2186D4;
+  margin-block: 10px;
+  }
+.container input[type="submit"]{
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: #2186D4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   }
+.container input[type="submit"]:hover{
+    cursor: pointer;
+}
+ .container .footer a{
+font-size: 18px;
+font-weight: bold;
+color: white;
+text-decoration: none;
+}
+.container .footer p{
+    color: white;    
+    }
